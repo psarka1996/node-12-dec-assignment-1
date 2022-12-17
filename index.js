@@ -3,7 +3,7 @@ const app=express();
 const PORT=8000;
 
 app.get("/",(req,res)=>{
-    res.send("<h1>hello Fullstack developers</h1>")
+    res.send("<h1>hello Aaakash developers</h1>")
 })
 
 app.listen(PORT,(req,res)=>{
