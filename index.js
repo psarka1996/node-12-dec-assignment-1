@@ -6,6 +6,10 @@ app.get("/",(req,res)=>{
     res.send("<h1>hello Aaakash </h1>")
 })
 
+app.get("/honey",(req,res)=>{
+    res.send("<h1>Pintu</h1>")
+})
+
 app.listen(PORT,(req,res)=>{
     console.log("server is running on PORT 8000");
 })
